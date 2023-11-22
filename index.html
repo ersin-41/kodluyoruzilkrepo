@@ -2,67 +2,171 @@
 <html lang="tr">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Google!</title>
+    <style>
+        .logo {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 351px;
+            height: 113px;
+        }
+        .grey-box {
+            background-color: rgb(238, 238, 238);
+            display: block;
+            width: 1646px;
+            height: 100px;
+            margin: auto;
+            margin-bottom:0px;
+        }
+        .grey-box p {
+            padding-left: 700px;
+            position: absolute;
+            top: 105px;
+            
+        }
+        .grey-box input#search-bar {
+            position: absolute;
+            right: 745px;
+            top: 150px;
+            width: 367px;
+            height: 25px;
+            margin-left: 20%;
+        }
+        .grey-box input#search-button {
+            position: absolute;
+            right: 950px;
+            top: 185px;
+            width: 131px;
+            height: 27px;
+        }
+        .grey-box input#feeling-luckybtn {
+            position: absolute;
+            right: 800px;
+            top: 185px;
+            width: 140px;
+            height: 27px;
+        }
+
+        .searches-box {
+            background-color: #7EE5DA;
+            display: block;
+            width: 620px;
+            height: 130px;
+            position: absolute;
+            top: 225px;
+            margin-left: 0%;
+            margin-top: 0;
+        }
+        .searches-box p {
+            position: absolute;
+            right: 40%;
+            top: -10px;
+        }
+        .searches-box ul {
+            position: absolute;
+            right: 40%;
+            top: 15px;
+        }
+        .links {
+            background-color: #70CCC2;
+            display: block;
+            width: 350px;
+            height: 130px;
+            position: absolute;
+            top: 225px;
+            margin-left: 600px;
+            margin-top: 0;
+        }
+        .links a {
+            margin-left: 120px;
+            font-size: 20px;
+        }
+        .links a#help-link {
+            position: absolute;
+            padding-left: 40px;
+        }
+        .email {
+            background-color: #62B3AA;
+            display: block;
+            width: 665px;
+            height: 130px;
+            position: absolute;
+            top: 225px;
+            margin-left: 950px;
+            margin-top: 0;
+        }
+        .email p {
+            position: absolute;
+            right: 40%;
+            top: -10px;
+            font-size: 20px;
+        }
+        .email input#emailBox {
+            position: absolute;
+            right: 235px;
+            top: 60px;
+            width: 207px;
+        }
+        .email input#subscribeButton {
+            position: absolute;
+            right: 325px;
+            top: 90px;
+        }
+        .email a {
+            position: absolute;
+            right: 250px;
+            top: 90px;
+        }
+        p#footer {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            margin-top: auto;
+            text-align: center;
+            margin-left: 600px;
+        }
+    </style>
 </head>
 <body>
     
+    <img src="https://web.archive.org/web/19990504112211im_/http://www.google.com/google.jpg" alt="Google-Logo" class="logo">
+    <div class="grey-box">
+        <p>Search the web using Google!</p>
+        <input id="search-bar" type="text">
+        <input id="search-button" type="submit" value="Google Search">
+        <input id="feeling-luckybtn" type="submit" value="I'm feeling lucky!">
+    </div>
 
-<h1>Ersin AÇIKGÖZ</h1>
-<!--Bu kısıma bilgilerim yazılacak -->
-<h2>Hakkımda</h2>
+    <div class="searches-box">
+        <p>Special Searches</p>
+        <ul>
+            <li>
+                <a href="https://www.google.com/search?q=stanford&oq=stanford&aqs=chrome..69i57j35i39j46i67l2j0i67l2j69i60l2.1933j0j7&sourceid=chrome&ie=UTF-8">Stanford Search</a>
+            </li>
 
-<h3>Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi, voluptates eligendi aperiam beatae illum facere animi, cum pariatur amet tempora provident nam laborum eos quibusdam numquam. Nemo iste consequuntur quam!</h3>
+            <li>
+                <a href="https://www.google.com/search?q=stanford&oq=stanford&aqs=chrome..69i57j35i39j46i67l2j0i67l2j69i60l2.1933j0j7&sourceid=chrome&ie=UTF-8">Linux Search</a>
+            </li>
+        </ul>
+    </div>
 
-<!--Bu kısıma hobilerim yazılacak-->
+    <div class="links">
+        <a id="help-link" href="https://web.archive.org/web/19990221212930if_/http://www.google.com/help.html">Help!</a><br>
+        <a href="https://web.archive.org/web/19990427105230if_/http://www.google.com/about.html">About Google!</a><br>
+        <a href="https://web.archive.org/web/19990221202430if_/http://www.google.com/company.html">Company Info</a><br>
+        <a href="https://web.archive.org/web/19990224043535if_/http://www.google.com/stickers.html">Google! Logos</a><br>
+    </div>
 
-<h2>Hobilerim</h2>
+    <div class="email">
+        <p>Get your Google!<br>updates monthly:</p>
+        <input id="emailBox" type="text" value="your e-mail">
+        <input id="subscribeButton"type="submit" value="Subscribe">
+        <a href="https://web.archive.org/web/19991009030623/http://www.egroups.com/group/google-friends/">Archive</a>
+    </div>
+    <p id="footer">Copyright ©1998 Google Inc.</p>
 
-<h3>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Harum distinctio illum cupiditate debitis, quisquam, ea aperiam tenetur perspiciatis, explicabo optio beatae! Eius ex animi cum expedita maxime in eaque sed.</h3>
-
-<ol>
-    <li>
-        <h3>Sevdiğim Filmler</h3>
-        <h4>
-            <ul>
-                <li><a href="https://www.hdfilmcehennemi2.stream/cehennem-melekleri-4-izle">Cehennem Melekleri</a></li>
-                <li>Maymunlar cehennemi</li>
-                <li>Hızlı ve Öfkeli</li>
-            </ul>
-        </h4>
-    </li>
-    <li>
-        <h3>Sevdiğim Diziler</h3>
-        <h4>
-            <ul>
-                <li>Kızılcık Şerbeti</li>
-                <li>Yalı çapkını</li>
-                <li>Aile</li>
-            </ul>
-        </h4>
-    </li>
-    <li>
-        <h3>Sevdiğim Kitaplar</h3>
-        <h4>
-            <ul>
-                <li><a href="https://www.goodreads.com/book/show/39832183-the-guernsey-literary-and-potato-peel-pie-society">Guernsey</a></li>
-                <li>Gönül Çelen</li>
-                <li>Vaz Geçme</li>
-                <li>Guernsey</li>
-            </ul>
-        </h4>
-    </li>
-</ol>
-
-<h1>CEHENNEM MELEKLERİ 4</h1>
-<img src="./cehennem_melekleri.jpeg" alt="Görsel">
-<h6>
-    <p>Amerikan aksiyon sinema dünyasının efsane ismi oyuncu, yönetmen senarist ve yapımcı <br>
-    <div style="color: blue;">Sylvester Stallone tarafından kaleme alınan ve 2010 yılında vizyona giren serisinin ilk filmi The Expendables Türkçesi ile Cehennem Melekleri</div> 
-    filmi, 80’li ve 90’lı yılların efsane aksiyon oyuncularını bir araya getirmesi ile dikkat çekmiş ve büyük ilgi görmüştü. <br>
-    Daha sonra iki film  daha vizyona girmiş ve Cehennem Melekleri serisi unutulmazlar arasına girmişti.</h6>
-</p>
-
-    
 </body>
 </html>
